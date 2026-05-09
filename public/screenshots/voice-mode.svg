@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E1B3A"/>
+      <stop offset="33%" stop-color="#2E2B5F"/>
+      <stop offset="66%" stop-color="#1A1733"/>
+      <stop offset="100%" stop-color="#0F0D22"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#9B85FF"/>
+      <stop offset="60%" stop-color="#6B7FFF"/>
+      <stop offset="100%" stop-color="#4A5FC4"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6B7FFF" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#6B7FFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="390" height="844" fill="url(#bg)"/>
+  <g opacity="0.6">
+    <circle cx="60" cy="120" r="1.2" fill="white"/>
+    <circle cx="320" cy="160" r="0.8" fill="white"/>
+    <circle cx="180" cy="80" r="1" fill="white"/>
+    <circle cx="280" cy="250" r="1.4" fill="white"/>
+    <circle cx="100" cy="280" r="0.9" fill="white"/>
+    <circle cx="350" cy="380" r="1.1" fill="white"/>
+    <circle cx="40" cy="440" r="0.8" fill="white"/>
+    <circle cx="200" cy="540" r="1.2" fill="white"/>
+    <circle cx="320" cy="620" r="0.9" fill="white"/>
+    <circle cx="80" cy="700" r="1" fill="white"/>
+  </g>
+  <text x="195" y="140" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-family="-apple-system, system-ui, sans-serif" font-size="11" letter-spacing="2">VOICE MODE</text>
+  <circle cx="195" cy="380" r="180" fill="url(#glow)"/>
+  <circle cx="195" cy="380" r="100" fill="url(#orb)"/>
+  <circle cx="170" cy="355" r="22" fill="rgba(255,255,255,0.3)"/>
+  <text x="195" y="600" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-family="-apple-system, system-ui, sans-serif" font-size="22" font-weight="600">Listening…</text>
+  <text x="195" y="640" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-family="-apple-system, system-ui, sans-serif" font-size="14">Speak whenever you&apos;re ready</text>
+  <g transform="translate(110, 720)">
+    <rect width="170" height="56" rx="28" fill="#6B7FFF"/>
+    <text x="85" y="35" text-anchor="middle" fill="white" font-family="-apple-system, system-ui, sans-serif" font-size="15" font-weight="600">Hold to UnLoop</text>
+  </g>
+</svg>

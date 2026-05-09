@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: #0f0d22;
+    color: rgba(255, 255, 255, 0.95);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background: rgba(107, 127, 255, 0.3);
+    color: white;
+  }
+
+  *:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(107, 127, 255, 0.6);
+    border-radius: 4px;
+  }
+}
+
+@layer utilities {
+  .gradient-text {
+    background: linear-gradient(135deg, #ffffff 0%, rgba(155, 133, 255, 0.8) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .card-surface {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+  }
+
+  .noise-texture {
+    position: relative;
+  }
+
+  .noise-texture::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' /%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none;
+    mix-blend-mode: overlay;
+  }
+}
+
+@layer components {
+  .prose-invert h2 {
+    @apply text-2xl font-semibold text-white mt-12 mb-4;
+  }
+  .prose-invert h3 {
+    @apply text-xl font-semibold text-white mt-8 mb-3;
+  }
+  .prose-invert p {
+    @apply mb-4 leading-relaxed;
+  }
+  .prose-invert ul {
+    @apply mb-4 pl-6 space-y-2;
+    list-style: disc;
+  }
+  .prose-invert a {
+    @apply text-accent-primary hover:text-accent-secondary transition-colors;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .prose-invert strong {
+    @apply text-white font-semibold;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E1B3A"/>
+      <stop offset="33%" stop-color="#2E2B5F"/>
+      <stop offset="66%" stop-color="#1A1733"/>
+      <stop offset="100%" stop-color="#0F0D22"/>
+    </linearGradient>
+  </defs>
+  <rect width="390" height="844" fill="url(#bg)"/>
+  <g opacity="0.5">
+    <circle cx="50" cy="100" r="0.9" fill="white"/>
+    <circle cx="340" cy="140" r="1.1" fill="white"/>
+    <circle cx="200" cy="60" r="0.8" fill="white"/>
+    <circle cx="60" cy="780" r="1" fill="white"/>
+    <circle cx="350" cy="800" r="0.8" fill="white"/>
+  </g>
+  <text x="40" y="140" fill="rgba(255,255,255,0.5)" font-family="-apple-system, system-ui, sans-serif" font-size="11" letter-spacing="2">WORRY DRAWER</text>
+  <text x="40" y="190" fill="rgba(255,255,255,0.95)" font-family="-apple-system, system-ui, sans-serif" font-size="32" font-weight="700" letter-spacing="-1">This week</text>
+  <g transform="translate(40, 230)">
+    <rect width="310" height="120" rx="20" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+    <text x="20" y="38" fill="rgba(155,133,255,0.9)" font-family="-apple-system, system-ui, sans-serif" font-size="11" letter-spacing="1.5">QUIETNESS SCORE</text>
+    <text x="20" y="80" fill="white" font-family="-apple-system, system-ui, sans-serif" font-size="40" font-weight="700">72</text>
+    <text x="80" y="80" fill="rgba(255,255,255,0.5)" font-family="-apple-system, system-ui, sans-serif" font-size="14">/ 100</text>
+    <path d="M 20 100 Q 80 95, 140 90 T 280 75" stroke="#6B7FFF" stroke-width="2" fill="none"/>
+  </g>
+  <g transform="translate(40, 380)">
+    <text x="0" y="0" fill="rgba(255,255,255,0.95)" font-family="-apple-system, system-ui, sans-serif" font-size="22" font-weight="600">Recent loops</text>
+  </g>
+  <g transform="translate(40, 410)">
+    <rect width="310" height="84" rx="16" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+    <circle cx="30" cy="42" r="8" fill="#6B7FFF"/>
+    <text x="55" y="38" fill="rgba(255,255,255,0.9)" font-family="-apple-system, system-ui, sans-serif" font-size="15" font-weight="500">Work presentation</text>
+    <text x="55" y="60" fill="rgba(255,255,255,0.5)" font-family="-apple-system, system-ui, sans-serif" font-size="13">3 loops · resolved</text>
+  </g>
+  <g transform="translate(40, 510)">
+    <rect width="310" height="84" rx="16" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+    <circle cx="30" cy="42" r="8" fill="#9B85FF"/>
+    <text x="55" y="38" fill="rgba(255,255,255,0.9)" font-family="-apple-system, system-ui, sans-serif" font-size="15" font-weight="500">Conversation with M.</text>
+    <text x="55" y="60" fill="rgba(255,255,255,0.5)" font-family="-apple-system, system-ui, sans-serif" font-size="13">2 loops · quieted</text>
+  </g>
+  <g transform="translate(40, 610)">
+    <rect width="310" height="84" rx="16" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+    <circle cx="30" cy="42" r="8" fill="#6B7FFF"/>
+    <text x="55" y="38" fill="rgba(255,255,255,0.9)" font-family="-apple-system, system-ui, sans-serif" font-size="15" font-weight="500">Future planning</text>
+    <text x="55" y="60" fill="rgba(255,255,255,0.5)" font-family="-apple-system, system-ui, sans-serif" font-size="13">5 loops · in progress</text>
+  </g>
+</svg>

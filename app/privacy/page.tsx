@@ -133,7 +133,7 @@ export default function PrivacyPage() {
         <h2>Contact</h2>
         <p>
           Questions, concerns, or requests? Email us at{' '}
-          <a href="mailto:privacy@unloop.app">privacy@unloop.app</a>.
+          <a href="mailto:Mikedeal@vibly.tech">Mikedeal@vibly.tech</a>.
         </p>
 
         <h2>A note on mental health</h2>

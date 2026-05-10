@@ -66,10 +66,10 @@ export function Footer() {
             <ul className="space-y-3 text-sm">
               <li>
                 <a
-                  href="mailto:support@unloop.app"
-                  className="text-white/70 hover:text-white"
+                  href="mailto:Mikedeal@vibly.tech"
+                  className="text-white/70 hover:text-white break-all"
                 >
-                  Contact
+                  Mikedeal@vibly.tech
                 </a>
               </li>
             </ul>

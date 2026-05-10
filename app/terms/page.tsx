@@ -147,7 +147,7 @@ export default function TermsPage() {
         <h2>Contact</h2>
         <p>
           Questions about these terms? Email us at{' '}
-          <a href="mailto:legal@unloop.app">legal@unloop.app</a>.
+          <a href="mailto:Mikedeal@vibly.tech">Mikedeal@vibly.tech</a>.
         </p>
       </LegalPage>
       <Footer />

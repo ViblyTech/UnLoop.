@@ -46,7 +46,7 @@ export function Nav() {
             Science
           </Link>
           <a
-            href="https://apps.apple.com/app/unloop"
+            href="https://apps.apple.com/us/app/unloop/id6762386828"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm font-medium px-4 py-2 rounded-full bg-accent-primary hover:bg-accent-primary/90 transition-colors"

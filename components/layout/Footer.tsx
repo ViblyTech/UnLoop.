@@ -30,7 +30,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="https://apps.apple.com/app/unloop"
+                  href="https://apps.apple.com/us/app/unloop/id6762386828"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white/70 hover:text-white"

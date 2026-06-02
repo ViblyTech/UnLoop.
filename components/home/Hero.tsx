@@ -30,7 +30,7 @@ export function Hero() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <a
-                  href="https://apps.apple.com/app/unloop"
+                  href="https://apps.apple.com/us/app/unloop/id6762386828"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-8 py-4 rounded-full bg-accent-primary hover:bg-accent-primary/90 transition-all hover:scale-[1.02] font-medium"

@@ -14,7 +14,7 @@ export function DownloadCTA() {
             Upgrade only when you&apos;re sure it works for you.
           </p>
           <a
-            href="https://apps.apple.com/app/unloop"
+            href="https://apps.apple.com/us/app/unloop/id6762386828"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-10 py-5 rounded-full bg-accent-primary hover:bg-accent-primary/90 transition-all hover:scale-[1.02] text-lg font-medium"
